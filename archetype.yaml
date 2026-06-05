@@ -1,0 +1,15 @@
+---
+description: "Rust Redis Cache — deadpool-redis cache crate for Cargo workspace services"
+summary: >
+  Generates a _cache Cargo crate with deadpool-redis, CachePool, and CacheSettings.
+  Consumed as a library by Rust service archetypes.
+  Requires the workspace Cargo.toml to declare the crate.
+authors: ["Jimmie Fulton <jimmie@ybor.ai>"]
+tags: ["library", "rust", "cache", "redis", "deadpool"]
+
+requires:
+  archetect: "3.0.0"
+
+templating:
+  trim_blocks: true
+  lstrip_blocks: true

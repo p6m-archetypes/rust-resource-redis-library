@@ -1,5 +1,5 @@
 [package]
-name = "{{ prefix_name }}_{{ suffix_name }}_cache"
+name = "{{ project_name }}_cache"
 version.workspace = true
 edition.workspace = true
 
